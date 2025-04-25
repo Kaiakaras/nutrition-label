@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.label {
+    border: 2px solid black;
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 33px;
+}
+
+
+p {
+    margin: 2px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: 'Helvetica', sans-serif;
+
+}
+
+.big {
+    font-size: 25px;
+}
+
+.medium-letter {
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.divider {
+    height: 1px;
+    background-color: black;
+}
+
+.large {
+    height: 8px;
+    background-color: black;
+    margin: 2px 0;
+}
+
+.medium {
+    height: 4px;
+    background-color: black;
+    margin: 2px 0;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+.double-indent {
+    margin-left: 2em;
+}
+
+.note {
+    font-size: 12px;
+    text-indent: -8px;
+    margin-left: 8px;
+}
+
+.divider .indent {
+    margin-left: 1em;
+}
